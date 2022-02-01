@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pre-commit = "==2.16.0"
 django = "*"
 django-admin = "*"
+virtualenv = "==20.0.33"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.8"
